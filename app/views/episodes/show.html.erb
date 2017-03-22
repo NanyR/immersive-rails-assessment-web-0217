@@ -1,0 +1,7 @@
+
+<h1>EPISODE <%= @episode.number%></h1> <br>
+<h3>Date: <%= @episode.date%></h3> <br>
+
+<h3>Guests:</h3>
+
+<%= link_to "Add a new guest", new_episode_guest_path(@episode)%>
